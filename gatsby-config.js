@@ -24,15 +24,15 @@ module.exports = {
           'open sans:800i',
         ],
       },
-    } /*
+    },
     {
       resolve: 'gatsby-source-shopify',
       options: {
-        shopName: process.env.GATSBY_SHOP_NAME,
-        accessToken: process.env.GATSBY_ACCESS_TOKEN,
-        apiVersion: '2020-07',
+        shopName: process.env.gatsbymadhatterstore,
+        accessToken: process.env.fe5995ea52bb889e16e0b4aefa327068,
+        apiVersion: '2021-01',
       },
-    },*/,
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

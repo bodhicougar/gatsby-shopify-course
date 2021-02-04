@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 const query = graphql`
-  fragment ProductTileFields on ShopifyProduct {
+  fragment ProductTileFields on shopifyProduct {
     handle
     priceRange {
       minVariantPrice {
