@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.6.14",
     "gatsby-plugin-styled-components": "^3.3.9",
     "gatsby-source-filesystem": "^2.3.14",
-    "gatsby-source-shopify": "^0.1.9",
+    "gatsby-source-shopify2": "^2.0.7",
     "gatsby-transformer-sharp": "^2.5.7",
     "netlify-lambda": "^2.0.1",
     "prop-types": "^15.7.2",
@@ -29,13 +29,15 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^3.10.0",
+    "react-is": "^17.0.1",
     "shopify-buy": "^2.11.0",
     "shopify-verify-webhook": "^1.0.0",
     "styled-components": "^5.1.1",
     "styled-reset": "^4.2.0"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "webpack": "^5.21.1"
   },
   "keywords": [
     "gatsby"
@@ -52,11 +54,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomphill/gatsby-shopify-course.git"
+    "url": "git+https://github.com/bodhicougar/gatsby-shopify-course.git"
   },
   "bugs": {
-    "url": "https://github.com/tomphill/gatsby-shopify-course/issues"
+    "url": "https://github.com/bodhicougar/gatsby-shopify-course/issues"
   },
-  "homepage": "https://github.com/tomphill/gatsby-shopify-course#readme",
+  "homepage": "https://github.com/bodhicougar/gatsby-shopify-course#readme",
   "main": "gatsby-browser.js"
 }

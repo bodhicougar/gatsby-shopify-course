@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `MadHatter Store`,
     description: `We're mad about hats`,
-    author: `@tomphill`,
+    author: `@bodhicougar`,
   },
   plugins: [
     `gatsby-plugin-remove-fingerprints`,
@@ -26,11 +26,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-shopify',
+      resolve: 'gatsby-source-shopify2',
       options: {
-        shopName: process.env.gatsbymadhatterstore,
-        accessToken: process.env.fe5995ea52bb889e16e0b4aefa327068,
-        apiVersion: '2021-01',
+        shopName: process.env.GATSBY_SHOP_NAME,
+        accessToken: process.env.GATSBY_ACCESS_TOKEN,
+        apiVersion: '2020-07',
       },
     },
     `gatsby-plugin-react-helmet`,
