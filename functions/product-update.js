@@ -41,7 +41,7 @@ exports.handler = function (event, context, callback) {
               axios.post(process.env.NETLIFY_BUILD_URL);
             })
             .catch(e => {
-              console.log('error updating product: ', e);
+              console.log('Error updating product: ', e);
             });
         }
       })
