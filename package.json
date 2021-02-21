@@ -8,7 +8,7 @@
     "axios": "^0.21.1",
     "babel-plugin-styled-components": "^1.10.7",
     "faunadb": "^3.0.1",
-    "gatsby": "^2.32.3",
+    "gatsby": "^2.32.2",
     "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.4.9",
     "gatsby-optional-chaining": "^1.0.1",
@@ -23,6 +23,7 @@
     "gatsby-source-shopify2": "^2.0.7",
     "gatsby-transformer-sharp": "^2.5.7",
     "netlify-lambda": "^2.0.1",
+    "nvm": "^0.0.4",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.1",
     "react": "^16.12.0",
@@ -37,7 +38,7 @@
   },
   "devDependencies": {
     "prettier": "2.0.5",
-    "webpack": "^5.21.1"
+    "webpack": "^5.23.0"
   },
   "keywords": [
     "gatsby"
