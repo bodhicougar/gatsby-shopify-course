@@ -22,7 +22,7 @@ export function CollectionTile({
         <div>
           <Title sale={sale}>{title}</Title>
           <Description sale={sale}>{description}</Description>
-          <StyledLink to={destination}>Shop now</StyledLink>
+          <StyledLink to={destination}>Jetzt einkaufen</StyledLink>
         </div>
       </CollectionTileContent>
     </CollectionTileWrapper>

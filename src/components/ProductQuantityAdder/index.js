@@ -19,7 +19,7 @@ export function ProductQuantityAdder({ variantId, available }) {
 
   return (
     <ProductQuantityAdderWrapper>
-      <strong>Quantity</strong>
+      <strong>Menge</strong>
       <form onSubmit={handleSubmit}>
         <Input
           disabled={!available}
@@ -30,7 +30,7 @@ export function ProductQuantityAdder({ variantId, available }) {
           onChange={handleQuantityChange}
         />
         <Button type="submit" disabled={!available} fullWidth>
-          Add to cart
+          Bestellen
         </Button>
       </form>
     </ProductQuantityAdderWrapper>

@@ -63,7 +63,7 @@ export default function AllProducts() {
     <Layout>
       <SEO
         description="The MadHatter store all products"
-        title="All products"
+        title="Alle Produkte"
       />
       {!!searchTerm && !!filteredProducts.length && (
         <h3>
