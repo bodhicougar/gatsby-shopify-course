@@ -15,13 +15,13 @@ export function CartContents() {
 
   return (
     <section>
-      <h1>Your cart</h1>
+      <h1>Warenkorb</h1>
       {!!checkout?.lineItems && (
         <CartHeader>
-          <div>Product</div>
-          <div>Unit price</div>
-          <div>Quantity</div>
-          <div>Amount</div>
+          <div>Produkt</div>
+          <div>Preis</div>
+          <div>Menge</div>
+          <div>Summe</div>
         </CartHeader>
       )}
       {checkout?.lineItems?.map(item => (
@@ -45,17 +45,17 @@ export function CartContents() {
       {!!checkout?.lineItems && (
         <CartFooter>
           <div>
-            <strong>Total:</strong>
+            <strong>Gesamt:</strong>
           </div>
           <div>
-            <span>£{checkout?.totalPrice}</span>
+            <span>€{checkout?.totalPrice}</span>
           </div>
         </CartFooter>
       )}
-      {!checkout?.lineItems && <h4>You cart is empty.</h4>}
+      {!checkout?.lineItems && <h4>Warenkorb ist leer</h4>}
       <Footer>
         <div>
-          <Button onClick={() => navigate(-1)}>Continue shopping</Button>
+          <Button onClick={() => navigate(-1)}>Weiter einkaufen</Button>
         </div>
         <div>
           {!!checkout?.webUrl && (
@@ -64,7 +64,7 @@ export function CartContents() {
                 window.location.href = checkout.webUrl;
               }}
             >
-              Checkout
+              Einkaufen
             </Button>
           )}
         </div>
