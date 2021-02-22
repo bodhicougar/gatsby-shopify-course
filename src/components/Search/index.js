@@ -30,7 +30,7 @@ export function Search() {
       <Input
         value={searchTerm}
         onChange={e => setSearchTerm(e.currentTarget.value)}
-        placeholder="Search"
+        placeholder="Suche"
       />
       <Button>
         <FaSearch />

@@ -36,7 +36,7 @@ export function CartContents() {
           <div>
             <QuantityAdjuster item={item} onAdjust={handleAdjustQuantity} />
           </div>
-          <div>£{(item.quantity * item.variant.price).toFixed(2)}</div>
+          <div>€{(item.quantity * item.variant.price).toFixed(2)}</div>
           <div>
             <RemoveLineItem lineItemId={item.id} />
           </div>

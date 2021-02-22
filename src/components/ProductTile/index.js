@@ -16,7 +16,7 @@ export function ProductTile({
       <Title>{title}</Title>
       <Description>{description}</Description>
       <Price>von €{parseFloat(minPrice).toFixed(2)}</Price>
-      <StyledLink to={`/products/${handle}`}>Zeige Produkt</StyledLink>
+      <StyledLink to={`/products/${handle}`}>Zum Produkt</StyledLink>
     </ProductTileWrapper>
   );
 }
