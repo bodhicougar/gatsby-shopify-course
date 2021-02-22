@@ -12,7 +12,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO description="The MadHatter store homepage" title="Homepage" />
+      <SEO description="The MadHatter API Test Startseite" title="Startseite" />
       <HomepageCollectionsGrid
         collections={
           collections.filter(
