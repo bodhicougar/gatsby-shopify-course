@@ -94,7 +94,7 @@ export default function AllProducts() {
         )}
         {!!filteredProducts.length && (
           <div>
-            <ProductsGrid Produkte={filteredProducts} />
+            <ProductsGrid products={filteredProducts} />
           </div>
         )}
       </Content>
