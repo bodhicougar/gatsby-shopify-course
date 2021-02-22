@@ -20,7 +20,7 @@ export function CartContents() {
         <CartHeader>
           <div>Art.</div>
           <div>Preis</div>
-          <div>Menge</div>
+          <div>Stk.</div>
           <div>Summe</div>
         </CartHeader>
       )}
