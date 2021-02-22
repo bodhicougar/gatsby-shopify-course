@@ -18,7 +18,7 @@ export function CartContents() {
       <h1>Warenkorb</h1>
       {!!checkout?.lineItems && (
         <CartHeader>
-          <div>Produkt</div>
+          <div>Art.</div>
           <div>Preis</div>
           <div>Menge</div>
           <div>Summe</div>
@@ -64,7 +64,7 @@ export function CartContents() {
                 window.location.href = checkout.webUrl;
               }}
             >
-              Einkaufen
+              Bestellen
             </Button>
           )}
         </div>
