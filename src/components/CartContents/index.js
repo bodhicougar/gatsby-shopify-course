@@ -32,7 +32,7 @@ export function CartContents() {
               {item.variant.title === 'Default Title' ? '' : item.variant.title}
             </div>
           </div>
-          <div>£{item.variant.price}</div>
+          <div>€{item.variant.price}</div>
           <div>
             <QuantityAdjuster item={item} onAdjust={handleAdjustQuantity} />
           </div>
